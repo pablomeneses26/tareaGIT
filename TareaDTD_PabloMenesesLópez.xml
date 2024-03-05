@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Recetas [
+
+<!ELEMENT Recetas (Receta+)>
+
+<!ELEMENT Receta (Nombre, Descripcion?, Ingredientes, Instrucciones?)>
+
+<!ATTLIST Receta autor CDATA #IMPLIED>
+
+<!ELEMENT Nombre (#PCDATA)>
+
+<!ELEMENT Descripcion (#PCDATA)>
+
+<!ELEMENT Ingredientes (Ingrediente+)>
+
+<!ELEMENT Ingrediente (Cantidad, Item)>
+
+<!ELEMENT Cantidad (#PCDATA)>
+
+<!ATTLIST Cantidad unidad CDATA #REQUIRED>
+
+<!ELEMENT Item (#PCDATA)>
+
+<!ELEMENT Instrucciones (Paso)*>
+
+<!ELEMENT Paso (#PCDATA)>
+
+<!ATTLIST Paso numero CDATA #REQUIRED>
+
+]>
+<Recetas>
+<Receta autor="Estela Morán">
+<Nombre>
+Espaguetis Carbonara
+</Nombre>
+<Descripcion>
+Receta clásica que no puede faltar en ningún piso de estudiantes
+</Descripcion>
+<Ingredientes>
+<Ingrediente>
+<Cantidad unidad="gramos">
+400
+</Cantidad>
+<Item>
+Espaguetis
+</Item>
+</Ingrediente>
+<Ingrediente>
+<Cantidad unidad="gramos">
+100
+</Cantidad>
+<Item>
+Panceta
+</Item>
+</Ingrediente>
+<Ingrediente>
+<Cantidad unidad="gramos">
+400
+</Cantidad>
+<Item>
+Nata
+</Item>
+</Ingrediente>
+<Ingrediente>
+<Cantidad unidad="unidades">
+3
+</Cantidad>
+<Item>
+Yemas de huevo
+</Item>
+</Ingrediente>
+<Ingrediente>
+<Cantidad unidad="cucharada">
+1
+</Cantidad>
+<Item>
+Mantequilla
+</Item>
+</Ingrediente>
+<Ingrediente>
+<Cantidad unidad="unidad">
+1
+</Cantidad>
+<Item>
+Cebolla
+</Item>
+</Ingrediente>
+<Ingrediente>
+<Cantidad unidad="dientes">
+2
+</Cantidad>
+<Item>
+Ajo
+</Item>
+</Ingrediente>
+<Ingrediente>
+<Cantidad unidad="gramos">
+300
+</Cantidad>
+<Item>
+Queso parmesano
+</Item>
+</Ingrediente>
+<Ingrediente>
+<Cantidad unidad="pizca">
+1
+</Cantidad>
+<Item>
+Sal
+</Item>
+</Ingrediente>
+<Ingrediente>
+<Cantidad unidad="pizca">
+1
+</Cantidad>
+<Item>
+Pimienta
+</Item>
+</Ingrediente>
+</Ingredientes>
+<Instrucciones>
+<Paso numero="1">
+Antes de empezar a hacer esta receta italiana de espaguetis a la carbonara lo primero que hay que hacer es alistar todos los ingredientes para preparar nuestra rico plato de pasta.
+</Paso>
+<Paso numero="2">
+Posteriormente, pelar y picar finamente la cebolla. Y después hay que dorarla en una cucharada de mantequilla.
+</Paso>
+<Paso numero="3">
+A continuación, cortar en tiras la panceta ahumada o bacon y machacar los ajos previamente pelados.
+</Paso>
+<Paso numero="4">
+Luego llevar estos dos ingredientes de los espaguetis a la carbonara originales al fuego junto con la cebolla y sofreír.
+</Paso>
+<Paso numero="5">
+A continuación, hervir los espaguetis en abundante agua con sal. El tiempo de cocción dependerá del tipo de pasta, así que comprueba las recomendaciones del fabricante en el envase.</Paso>
+<Paso numero="6">
+Aparte mezclar las yemas de huevo con 100 gramos del queso parmesano que tenemos preparado y condimentar con sal y pimienta.</Paso>
+<Paso numero="7">
+Agregar la crema de leche al sofrito de los espaguetis a la carbonara con huevo y dejarlo a fuego bajo por 5 minutos para seguir con la preparación de la salsa carbonara.
+La salsa carbonara original no lleva ni nata ni crema de leche, se hace solo con huevo pero aquí la he incluido porque en casa nos encanta así.
+</Paso>
+<Paso numero="8">
+Después de ese tiempo, apagar el fuego e incorporarle la mezcla de las yemas al sofrito, revolver rápido e inmediatamente mezclar con la pasta hervida.
+</Paso>
+<Paso numero="9">
+¡A disfrutar de estos espaguetis a la carbonara acompañados con el resto del queso parmesano rallado!
+</Paso>
+</Instrucciones>
+
+</Receta>
+<Receta autor="Montse Morote Ortega">
+    <Nombre>
+    Tortilla de patatas
+    </Nombre>
+    <Descripcion>
+    Receta española, muy española y mucho española
+    </Descripcion>
+    <Ingredientes>
+    <Ingrediente>
+    <Cantidad unidad="unidades">
+    5
+    </Cantidad>
+    <Item>
+    Huevos
+    </Item>
+    </Ingrediente>
+    <Ingrediente>
+    <Cantidad unidad="gramos">
+    500
+    </Cantidad>
+    <Item>
+    Patatas
+    </Item>
+    </Ingrediente>
+    <Ingrediente>
+    <Cantidad unidad="unidad">
+    1
+    </Cantidad>
+    <Item>
+    Cebolla
+    </Item>
+    </Ingrediente>
+    <Ingrediente>
+    <Cantidad unidad="pizca">
+    1
+    </Cantidad>
+    <Item>
+    Sal
+    </Item>
+    </Ingrediente>
+    <Ingrediente>
+    <Cantidad unidad="vaso">
+    1
+    </Cantidad>
+    <Item>
+    Aceite de oliva
+    </Item>
+    </Ingrediente>
+    </Ingredientes>
+    <Instrucciones>
+    <Paso numero="1">
+        Pela, lava y corta las patatas. Para conseguir una buena tortilla española recomendamos cortar las patatas finitas. Pueden ser trozos pequeños o rodajas más grandes, pero finas. Pica finamente la cebolla en caso de querer hacer tu tortilla de patatas con cebolla.
+        </Paso>
+    <Paso numero="2">
+        Calienta una sartén con abundante aceite y, cuando esté caliente, añade las patatas y deja que se cocinen a fuego medio, removiendo de vez en cuando para que no se quemen.
+        </Paso>
+    <Paso numero="3">
+        Agrega la cebolla y mezcla. Se puede poner solo media cebolla si quieres dar más protagonismo a la patata. Sigue cocinando hasta que las patatas estén hechas.
+        </Paso>
+    <Paso numero="4">
+        Cuando estén pochadas, saca las patatas con la cebolla y colócalas en un colador para retirar el exceso de aceite.
+        </Paso>
+    <Paso numero="5">
+    Ahora tienes dos formas de hacer la tortilla de patatas dependiendo de si quieres que quede más o menos jugosa. La primera de ellas consiste en batir bien los huevos, agregar las patatas y un poco de sal y mezclar. Si los huevos quedan espumosos, el resultado será una tortilla de patatas esponjosa y cocinada. La segunda opción consiste en incorporar las patatas en un bol, añadir los huevos enteros, sal al gusto y mezclar. De esta manera, es decir, sin batir antes los huevos, el resultado es una tortilla de patatas jugosa.
+    </Paso>    
+    <Paso numero="6">
+    Coge una sartén antiadherente, añade un par de cucharadas de aceite y deja que se caliente. Vierte toda la mezcla y, al principio, revuelve un poco las patatas. Esto deberás hacerlo solo al principio, después deja que se cocine sola la tortilla.
+    </Paso>
+    <Paso numero="7">
+    Cuando veas que los bordes se empiezan a cuajar, dale la vuelta y deja que se cocine otros 3-4 minutos más. Si quieres que tu tortilla de patatas española quede poco cuajada, este es el momento de sacarla, de lo contrario, deja que se cocine un par o 3 de minutos más.
+    </Paso>
+    <Paso numero="8">
+    La receta de tortilla de patatas española está lista para servir. Al cortarla, verás que queda una tortilla jugosa y perfecta, aunque recuerda que el punto de cocción es totalmente al gusto del consumidor.
+    </Paso>
+    </Instrucciones>
+    
+    </Receta>
+
+<Receta autor="Isabel Rescalvo">
+    <Nombre>
+    Tarta de queso al horno
+    </Nombre>
+    <Descripcion>
+    Postre que no puede faltar en ninguna celebración.
+    </Descripcion>
+    <Ingredientes>
+    <Ingrediente>
+    <Cantidad unidad="gramos">
+    500
+    </Cantidad>
+    <Item>
+    Queso tipo Philadelphia
+    </Item>
+    </Ingrediente>
+    <Ingrediente>
+    <Cantidad unidad="gramos">
+    150
+    </Cantidad>
+    <Item>
+    Azúcar
+    </Item>
+    </Ingrediente>
+    <Ingrediente>
+    <Cantidad unidad="unidades">
+    3
+    </Cantidad>
+    <Item>
+    Huevos
+    </Item>
+    </Ingrediente>
+    <Ingrediente>
+    <Cantidad unidad="cucharada">
+    1
+    </Cantidad>
+    <Item>
+    Esencia de vainilla
+    </Item>
+    </Ingrediente>
+    <Ingrediente>
+    <Cantidad unidad="mililitros">
+    250
+    </Cantidad>
+    <Item>
+    Nata para montar
+    </Item>
+    </Ingrediente>
+    <Ingrediente>
+    <Cantidad unidad="cucharada">
+    2
+    </Cantidad>
+    <Item>
+    Harina
+    </Item>
+    </Ingrediente>
+    </Ingredientes>
+    <Instrucciones>
+    <Paso numero="1">
+        Primero, en un bol, ponemos el queso crema y el azúcar y lo mezclamos bien hasta que tenga una textura lisa y uniforme.   
+         </Paso>
+    <Paso numero="2">
+        A continuación, añadimos la nata, los huevos y la esencia de vainilla y seguimos batiendo con unas varillas. Recordemos que la nata es conocida, también, como crema de leche.
+            </Paso>
+    <Paso numero="3">
+        Tamizamos la harina directamente sobre la masa y la integramos haciendo movimientos envolventes hasta dejar una mezcla lisa y sin grumos. Para que la tarta de queso con horno quede suave y de textura agradable, es preciso no saltarse este paso.
+        </Paso>
+    <Paso numero="4">
+        Engrasamos un molde de 18 cm de diámetro con un espray desmoldante, con aceite suave o mantequilla. Luego, vertemos la masa horneamos la tarta de queso con el horno precalentado a 160 ºC con calor arriba y abajo durante 50 minutos. Pasado este tiempo, dejamos la tarta 30 minutos más dentro del horno con la puerta cerrada para que se entibie.
+        </Paso>
+    <Paso numero="5">
+        Pasados los minutos de reposo, retiramos la tarta del horno y dejamos que se enfríe por completo antes de desmoldarla. Una vez fuera del molde, la reservamos en la nevera hasta el momento de comerla. ¡Y listo!
+        </Paso>    
+    </Instrucciones>
+    
+    </Receta>
+</Recetas>
